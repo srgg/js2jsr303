@@ -20,7 +20,7 @@ was implemented as following javascript function:
 function exact5(message){
     if (currentFieldValue != '5') {
         if(typeof message === 'undefined'){
-            message = "Values must be exactly '5';
+            message = "Values must be exactly '5'";
         }
         __validator.addViolation('t', message, null);
         return false;
