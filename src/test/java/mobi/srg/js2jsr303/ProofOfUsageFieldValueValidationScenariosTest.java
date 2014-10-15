@@ -12,7 +12,7 @@ import java.util.*;
 import static org.junit.Assert.assertNull;
 
 /**
- * The following scenario was identified:
+ * The following scenario is covered:
  *    - validation by builtin jsr303 constraints
  *    - validation by Hibernate specific constraints
  *    - validation by user defined jsr303 constraints
