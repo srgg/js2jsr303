@@ -7,8 +7,8 @@ Here is an example of field metadata:
 
 ```javascript
 {
-    "name: "integerField",
-    "type: "INTEGER",
+    "name": "integerField",
+    "type": "INTEGER",
     "validator": "decimalMin({value: '0'}) && decimalMax({value: '10'}) && exact5()"
 }
 ```
