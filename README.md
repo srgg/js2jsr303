@@ -1,4 +1,4 @@
-jsBridge2jsr303
+js2jsr303
 ================
 
 Thoughts(PoC) kind of DSL (JavaScript) for data validation on POJO'less Java backend.
@@ -30,9 +30,9 @@ function exact5(message){
 ```
 
 This JS function uses two of three implicit objects which are currently available in JS context as global vars:
-    - \__validator - corresponding instance of Validator which performs validation;
-    - current Field - metadata for a validating field;
-    - currentFieldValue - value which is currently validated.
+   * \__validator - corresponding instance of Validator which performs validation;
+   * current Field - metadata for a validating field;
+   * currentFieldValue - value which is currently validated.
 
 Entity validation might be performed as follows:
 ```java
